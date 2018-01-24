@@ -1,0 +1,37 @@
+??How did viewing a diff between two versions help you spot the bug?
+
+!!diff -u <old_file> <new_file>
+find mistakes in the output of diff
+open new_file, search for typo, replace, be happy.
+
+
+??How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+!!Find out what might have stopped the code from working by comparing everything that you added.
+
+
+??What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+!!Pros: logical structure in each commit is separated. You can commit only versions that are actually working, so you don't have to find additional bugs in your commit that you don't actually want to have there.
+Cons: if you forget to save, a commit might become too huge to compare it efficiently
+
+
+??Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+!!Google Docs most likely is use for less advanced work, like writing texts, saving pictures. Here the different files are not really connected to each other. Therefore a change of one of those files will almost never affect any of the other saved files.
+When programming you have .h and .c files that are heavily connected. Therefore for a more advanced version control tool like Git it makes sense to save the changes of both files together.
+
+
+??How can you use the commands git log and git diff to view the history of files?
+
+!!with git log you can find a list of all commits. There you can search the commit titles for the versions that you want to compare. Then with git diff <first id> <second id> you can compare all changed files of the two versions with each other.
+
+
+??How might using version control make you more confident to make changes that could break something?
+
+!!You know that, no matter what you do, you can always go back to the previous version when everything was working fine.
+
+
+??Now that you have your workspace set up, what do you want to try using Git for?
+
+!!For coding, writing my PhD thesis and everything else that will involve regular changing files.
