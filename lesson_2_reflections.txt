@@ -18,7 +18,9 @@
 !! If you want to implement a new feature without destroying the current working version of your code. If several people work on different features at the same time, starting from a working version, while other still modify the working version.
 
 
+?? How do the diagrams help you visualize the branch structure?
 
+!! With the diagrams you can see which general features are already implemented in your branch by checking at which commit the actual branching happened. You can also see which new features are already inside the newest master-version of the project.
 
 
 
