@@ -23,4 +23,6 @@
 !! With the diagrams you can see which general features are already implemented in your branch by checking at which commit the actual branching happened. You can also see which new features are already inside the newest master-version of the project.
 
 
+?? What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
+!! Merging of two branches results in a new commit. This commit contains every change that was done in both last commits in the two branches. The new commit knows about both parent ids, therefore we connect it with both branches in our diagram.
