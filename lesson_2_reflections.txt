@@ -26,3 +26,8 @@
 ?? What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 !! Merging of two branches results in a new commit. This commit contains every change that was done in both last commits in the two branches. The new commit knows about both parent ids, therefore we connect it with both branches in our diagram.
+
+
+?? What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+!! The automatised merging helps with copying everything that is completely new to your code, so you cannot forget any important things of your new code. The problem is, that it might also copy lines into the code that where fine with both versions, but now the code is not working. For example if both commits define a variable with the same name at different places, both lines will be copied automatically, but the compiler will complain since this variable was defined twice.
