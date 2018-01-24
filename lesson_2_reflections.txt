@@ -6,3 +6,19 @@
 ?? How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 !! The working directory only contains the current state of the files. The repository contains also all of the history of the tracked files. The staging area is a place in between these. It gives the opportunity to bundle several changed files together in one commit. The advantage is also that you have the possibility to think again if you really want to add all the preselected files to the repository.
+
+
+?? How can you use the staging area to make sure you have one commit per logical change?
+
+!! You can compare with "git diff" the files that were not staged to the old versions in the repository to see if these changes should be contained in your logical change. With "git diff --staged" you can check if all the files staged for commit are actually belonging to the particular logical change.
+
+
+?? What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+!! If you want to implement a new feature without destroying the current working version of your code. If several people work on different features at the same time, starting from a working version, while other still modify the working version.
+
+
+
+
+
+
