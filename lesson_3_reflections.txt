@@ -14,3 +14,8 @@
 A clone is a copy of a full repository from either GitHub or from a local repository. Any changes here can be pushed to where the original is.
 A fork is a clone, but on GitHub directly. It is needed if you want to clone a repository that you do not have access rights to. Also any changes that are done on the fork are not present on the original.
 You use clone, if you want to test a new code without destroying the overall program. You use clone if you want to start working on a project that someone shared with you. You use fork if you want to have a personal copy of a git repository that somebody else owns.
+
+
+??What is the benefit of having a copy of the last known state of the remote stored locally?
+
+!!Then you can merge these and work on the merged version offline.
