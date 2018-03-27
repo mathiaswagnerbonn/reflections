@@ -20,6 +20,12 @@ You use clone, if you want to test a new code without destroying the overall pro
 
 !!Then you can merge these and work on the merged version offline.
 
+
 ??How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 !!I would use different versions of the files for each person. One would then have to compare file by file what was changed by different persons. There is nothing that would be easier with this method, therefore I will always use Git or GitHub in the future.
+
+
+??When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+!!Directly on the master branch you don't have to deal with merging and conflicts that appear. But if you work with other people together you might still want to have an always working version, therefore, everybody should work on his own branch such that the master branch is always intact and only contains properly working and tested features.
