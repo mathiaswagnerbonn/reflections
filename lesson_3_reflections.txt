@@ -19,3 +19,7 @@ You use clone, if you want to test a new code without destroying the overall pro
 ??What is the benefit of having a copy of the last known state of the remote stored locally?
 
 !!Then you can merge these and work on the merged version offline.
+
+??How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+!!I would use different versions of the files for each person. One would then have to compare file by file what was changed by different persons. There is nothing that would be easier with this method, therefore I will always use Git or GitHub in the future.
